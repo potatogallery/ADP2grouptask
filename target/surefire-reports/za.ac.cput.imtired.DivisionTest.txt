@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.cput.imtired.DivisionTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 3.633 s <<< FAILURE! - in za.ac.cput.imtired.DivisionTest
-testFailing  Time elapsed: 0.027 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 3.677 s <<< FAILURE! - in za.ac.cput.imtired.DivisionTest
+testFailing  Time elapsed: 0.041 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at za.ac.cput.imtired.DivisionTest.testFailing(DivisionTest.java:58)
 
