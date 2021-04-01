@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.imtired.DivisionTest" time="3.633" tests="5" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.imtired.DivisionTest" time="3.677" tests="5" errors="0" skipped="1" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\POTATOE\AppData\Local\Temp\surefire577319594197080979\surefirebooter6552983750509613004.jar C:\Users\POTATOE\AppData\Local\Temp\surefire577319594197080979 2021-04-01T09-47-26_245-jvmRun1 surefire5159264272600366367tmp surefire_07094565734975748404tmp"/>
+    <property name="sun.java.command" value="C:\Users\POTATOE\AppData\Local\Temp\surefire5265995505605834430\surefirebooter3222411496333498088.jar C:\Users\POTATOE\AppData\Local\Temp\surefire5265995505605834430 2021-04-01T18-19-00_578-jvmRun1 surefire6117785654381317341tmp surefire_02493949091515556569tmp"/>
     <property name="test" value="za.ac.cput.imtired.DivisionTest"/>
     <property name="surefire.test.class.path" value="C:\Users\POTATOE\Desktop\219169357KeallanSaunders\ImTired\target\test-classes;C:\Users\POTATOE\Desktop\219169357KeallanSaunders\ImTired\target\classes;C:\Users\POTATOE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\POTATOE\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\POTATOE\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\POTATOE\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\POTATOE\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\POTATOE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\POTATOE\.m2\repository\org\junit\platform\junit-platform-runner\1.5.2\junit-platform-runner-1.5.2.jar;C:\Users\POTATOE\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\POTATOE\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\POTATOE\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\POTATOE\.m2\repository\org\junit\platform\junit-platform-suite-api\1.5.2\junit-platform-suite-api-1.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\POTATOE\AppData\Local\Temp\surefire577319594197080979\surefirebooter6552983750509613004.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\POTATOE\AppData\Local\Temp\surefire5265995505605834430\surefirebooter3222411496333498088.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,15 +62,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="timeouttest" classname="za.ac.cput.imtired.DivisionTest" time="3.555"/>
-  <testcase name="testFailing" classname="za.ac.cput.imtired.DivisionTest" time="0.027">
+  <testcase name="timeouttest" classname="za.ac.cput.imtired.DivisionTest" time="3.565"/>
+  <testcase name="testFailing" classname="za.ac.cput.imtired.DivisionTest" time="0.041">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at za.ac.cput.imtired.DivisionTest.testFailing(DivisionTest.java:58)
 ]]></failure>
   </testcase>
-  <testcase name="testIdentity" classname="za.ac.cput.imtired.DivisionTest" time="0.002"/>
+  <testcase name="testIdentity" classname="za.ac.cput.imtired.DivisionTest" time="0.003"/>
   <testcase name="testDisable" classname="za.ac.cput.imtired.DivisionTest" time="0">
     <skipped message="public void za.ac.cput.imtired.DivisionTest.testDisable() is @Disabled"/>
   </testcase>
-  <testcase name="testEquality" classname="za.ac.cput.imtired.DivisionTest" time="0.004"/>
+  <testcase name="testEquality" classname="za.ac.cput.imtired.DivisionTest" time="0.003"/>
 </testsuite>
